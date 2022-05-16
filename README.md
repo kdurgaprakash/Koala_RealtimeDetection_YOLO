@@ -1,5 +1,7 @@
 # Koala_Realtime_Detection_YOLO
 
+Real time detection of Koala bear with finetuned YOLOv3 network initialized with pretrained weights on COCO dataset
+
 #### How to Run
 1. Create Dataset folder and include following items in the folder
     a) test.txt - Contains list of all test images
