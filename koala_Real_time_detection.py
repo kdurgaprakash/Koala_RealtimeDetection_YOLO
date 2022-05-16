@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 # Reading a network model stored in Darknet model files and loading configuration file and weights trained from google colab
 # Input correct path for configuration file and weights for the below code
-net = cv2.dnn.readNetFromDarknet("path of yolov3_custom.cfg","path of yolov3_custom_2000.weights")
+net = cv2.dnn.readNetFromDarknet("path of yolov3_custom.cfg","path of trained weights")
 
 # Creating a list for classes
 
